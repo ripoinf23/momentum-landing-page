@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Momentum - Build Better Habits, Achieve Your Goals. The smart habit tracking app available in English, Arabic, and French.">
+    <meta name="keywords" content="habit tracker, productivity, goals, self-improvement, momentum">
+    <title>Momentum - Build Better Habits</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <img src="momentum_logo_with_text.png" alt="Momentum Logo" height="40">
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#screenshots">Screenshots</a>
+                    <a href="#download">Download</a>
+                    <div class="language-selector">
+                        <select id="language" onchange="changeLanguage( )">
+                            <option value="en">English</option>
+                            <option value="ar">العربية</option>
+                            <option value="fr">Français</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-en="Build Better Habits" data-ar="ابنِ عادات أفضل" data-fr="Prenez de meilleures habitudes">Build Better Habits</h1>
+                <h2 class="hero-subtitle" data-en="Achieve Your Goals" data-ar="حقق أهدافك" data-fr="Atteignez vos objectifs">Achieve Your Goals</h2>
+                <p class="hero-description" data-en="The smart way to track your habits and grow. Available in multiple languages with beautiful design and powerful features." data-ar="الطريقة الذكية لتتبع عاداتك والنمو. متوفر بعدة لغات مع تصميم جميل وميزات قوية." data-fr="La façon intelligente de suivre vos habitudes et de grandir. Disponible en plusieurs langues avec un design magnifique et des fonctionnalités puissantes.">
+                    The smart way to track your habits and grow. Available in multiple languages with beautiful design and powerful features.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary" data-en="Download Now" data-ar="حمّل الآن" data-fr="Télécharger maintenant">Download Now</a>
+                    <a href="#features" class="btn btn-secondary" data-en="Learn More" data-ar="اعرف المزيد" data-fr="En savoir plus">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="main_screen_english.png" alt="Momentum App Screenshot" class="phone-mockup">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title" data-en="Why Momentum?" data-ar="لماذا Momentum؟" data-fr="Pourquoi Momentum ?">Why Momentum?</h2>
+            <p class="section-subtitle" data-en="Everything you need to build lasting habits" data-ar="كل ما تحتاجه لبناء عادات دائمة" data-fr="Tout ce dont vous avez besoin pour créer des habitudes durables">Everything you need to build lasting habits</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3 data-en="Track Your Progress" data-ar="تتبع تقدمك" data-fr="Suivez vos progrès">Track Your Progress</h3>
+                    <p data-en="Visualize your success with beautiful charts and detailed statistics." data-ar="تصور نجاحك برسوم بيانية جميلة وإحصائيات مفصلة." data-fr="Visualisez votre succès avec de superbes graphiques et des statistiques détaillées.">
+                        Visualize your success with beautiful charts and detailed statistics.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3 data-en="Earn Achievements" data-ar="اربح الإنجازات" data-fr="Gagnez des succès">Earn Achievements</h3>
+                    <p data-en="Stay motivated with gamification. Unlock badges and earn points as you build your habits." data-ar="حافظ على حماسك مع نظام الألعاب. افتح الشارات واربح النقاط أثناء بناء عاداتك." data-fr="Restez motivé avec la gamification. Débloquez des badges et gagnez des points en développant vos habitudes.">
+                        Stay motivated with gamification. Unlock badges and earn points as you build your habits.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3 data-en="Secure & Private" data-ar="آمن وخاص" data-fr="Sécurisé et privé">Secure & Private</h3>
+                    <p data-en="Your data is protected with end-to-end encryption. Your privacy is our priority." data-ar="بياناتك محمية بالتشفير من طرف إلى طرف. خصوصيتك هي أولويتنا." data-fr="Vos données sont protégées par un cryptage de bout en bout. Votre vie privée est notre priorité.">
+                        Your data is protected with end-to-end encryption. Your privacy is our priority.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3 data-en="Multi-Language" data-ar="متعدد اللغات" data-fr="Multilingue">Multi-Language</h3>
+                    <p data-en="Use Momentum in English, Arabic, or French with full RTL/LTR support." data-ar="استخدم Momentum بالإنجليزية أو العربية أو الفرنسية مع دعم كامل لـ RTL/LTR." data-fr="Utilisez Momentum en anglais, arabe ou français avec une prise en charge complète RTL/LTR.">
+                        Use Momentum in English, Arabic, or French with full RTL/LTR support.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3 data-en="Multi-Device Sync" data-ar="مزامنة متعددة الأجهزة" data-fr="Synchronisation multi-appareils">Multi-Device Sync</h3>
+                    <p data-en="Access your habits on up to 3 devices with seamless synchronization." data-ar="يمكنك الوصول إلى عاداتك على ما يصل إلى 3 أجهزة مع مزامنة سلسة." data-fr="Accédez à vos habitudes sur jusqu'à 3 appareils avec une synchronisation transparente.">
+                        Access your habits on up to 3 devices with seamless synchronization.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 data-en="Smart Reminders" data-ar="تذكيرات ذكية" data-fr="Rappels intelligents">Smart Reminders</h3>
+                    <p data-en="Never miss a habit with customizable reminders and notifications." data-ar="لا تفوت أي عادة مع التذكيرات والإشعارات القابلة للتخصيص." data-fr="Ne manquez jamais une habitude avec des rappels et des notifications personnalisables.">
+                        Never miss a habit with customizable reminders and notifications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <h2 class="section-title" data-en="See It In Action" data-ar="شاهده أثناء العمل" data-fr="Voyez-le en action">See It In Action</h2>
+            <p class="section-subtitle" data-en="Beautiful design meets powerful functionality" data-ar="تصميم جميل يلتقي بوظائف قوية" data-fr="Un design magnifique rencontre des fonctionnalités puissantes">Beautiful design meets powerful functionality</p>
+            
+            <div class="screenshots-grid">
+                <div class="screenshot-item">
+                    <img src="main_screen_english.png" alt="Main Screen">
+                    <p data-en="Track Daily Habits" data-ar="تتبع العادات اليومية" data-fr="Suivez les habitudes quotidiennes">Track Daily Habits</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="statistics_screen_arabic.png" alt="Statistics Screen">
+                    <p data-en="Detailed Statistics" data-ar="إحصائيات مفصلة" data-fr="Statistiques détaillées">Detailed Statistics</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="achievements_screen_arabic.png" alt="Achievements Screen">
+                    <p data-en="Unlock Achievements" data-ar="افتح الإنجازات" data-fr="Débloquez des succès">Unlock Achievements</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="add_habit_screen_arabic.png" alt="Add Habit Screen">
+                    <p data-en="Create Custom Habits" data-ar="أنشئ عادات مخصصة" data-fr="Créez des habitudes personnalisées">Create Custom Habits</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <div class="container">
+            <h2 class="section-title" data-en="Choose Your Plan" data-ar="اختر خطتك" data-fr="Choisissez votre plan">Choose Your Plan</h2>
+            <p class="section-subtitle" data-en="Start free, upgrade when you're ready" data-ar="ابدأ مجاناً، وقم بالترقية عندما تكون جاهزاً" data-fr="Commencez gratuitement, mettez à niveau quand vous êtes prêt">Start free, upgrade when you're ready</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 data-en="Free" data-ar="مجاني" data-fr="Gratuit">Free</h3>
+                    <div class="price">$0</div>
+                    <ul class="features-list">
+                        <li data-en="Up to 5 habits" data-ar="حتى 5 عادات" data-fr="Jusqu'à 5 habitudes">Up to 5 habits</li>
+                        <li data-en="Basic statistics" data-ar="إحصائيات أساسية" data-fr="Statistiques de base">Basic statistics</li>
+                        <li data-en="1 device" data-ar="جهاز واحد" data-fr="1 appareil">1 device</li>
+                    </ul>
+                    <a href="#download" class="btn btn-outline" data-en="Get Started" data-ar="ابدأ الآن" data-fr="Commencer">Get Started</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="badge" data-en="Popular" data-ar="الأكثر شعبية" data-fr="Populaire">Popular</div>
+                    <h3 data-en="Premium" data-ar="مميز" data-fr="Premium">Premium</h3>
+                    <div class="price">$4.99<span data-en="/month" data-ar="/شهر" data-fr="/mois">/month</span></div>
+                    <ul class="features-list">
+                        <li data-en="Unlimited habits" data-ar="عادات غير محدودة" data-fr="Habitudes illimitées">Unlimited habits</li>
+                        <li data-en="Advanced statistics" data-ar="إحصائيات متقدمة" data-fr="Statistiques avancées">Advanced statistics</li>
+                        <li data-en="3 devices" data-ar="3 أجهزة" data-fr="3 appareils">3 devices</li>
+                        <li data-en="Custom themes" data-ar="سمات مخصصة" data-fr="Thèmes personnalisés">Custom themes</li>
+                    </ul>
+                    <a href="#download" class="btn btn-primary" data-en="Upgrade Now" data-ar="قم بالترقية الآن" data-fr="Mettre à niveau maintenant">Upgrade Now</a>
+                </div>
+
+                <div class="pricing-card">
+                    <h3 data-en="Pro" data-ar="احترافي" data-fr="Pro">Pro</h3>
+                    <div class="price">$9.99<span data-en="/month" data-ar="/شهر" data-fr="/mois">/month</span></div>
+                    <ul class="features-list">
+                        <li data-en="Everything in Premium" data-ar="كل شيء في المميز" data-fr="Tout dans Premium">Everything in Premium</li>
+                        <li data-en="Advanced analytics" data-ar="تحليلات متقدمة" data-fr="Analyses avancées">Advanced analytics</li>
+                        <li data-en="Priority support" data-ar="دعم ذو أولوية" data-fr="Support prioritaire">Priority support</li>
+                        <li data-en="Export data" data-ar="تصدير البيانات" data-fr="Exporter les données">Export data</li>
+                    </ul>
+                    <a href="#download" class="btn btn-outline" data-en="Go Pro" data-ar="كن محترفاً" data-fr="Passer Pro">Go Pro</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signup Section - Netlify Official -->
+    <section id="signup" class="signup">
+        <div class="container">
+            <h2 class="section-title" data-en="Be the First to Know" data-ar="كن أول من يعلم" data-fr="Soyez le premier informé">Be the First to Know</h2>
+            <p class="section-subtitle" data-en="Sign up for launch updates and get early access." data-ar="سجل للحصول على تحديثات الإطلاق والوصول المبكر." data-fr="Inscrivez-vous pour les mises à jour de lancement et obtenez un accès anticipé.">Sign up for launch updates and get early access.</p>
+            
+            <!-- NETLIFY'S RECOMMENDED FORM STRUCTURE -->
+            <form name="contact" method="POST" data-netlify="true">
+              <div class="signup-form">
+                <p style="display: none;">
+                  <label>
+                    Don’t fill this out if you’re human: <input name="bot-field" />
+                  </label>
+                </p>
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary" data-en="Notify Me" data-ar="أعلمني" data-fr="Prévenez-moi">Notify Me</button>
+              </div>
+            </form>
+            <!-- END OF NETLIFY FORM -->
+
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2 class="section-title" data-en="Download Momentum Today" data-ar="حمّل Momentum اليوم" data-fr="Téléchargez Momentum aujourd'hui">Download Momentum Today</h2>
+            <p class="section-subtitle" data-en="Available soon on iOS and Android" data-ar="متاح قريباً على iOS و Android" data-fr="Bientôt disponible sur iOS et Android">Available soon on iOS and Android</p>
+            
+            <div class="download-buttons">
+                <a href="#" class="store-button">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on App Store">
+                </a>
+                <a href="#" class="store-button">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Momentum</h4>
+                    <p data-en="Build better habits, achieve your goals." data-ar="ابنِ عادات أفضل، حقق أهدافك." data-fr="Prenez de meilleures habitudes, atteignez vos objectifs.">
+                        Build better habits, achieve your goals.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Quick Links" data-ar="روابط سريعة" data-fr="Liens rapides">Quick Links</h4>
+                    <ul>
+                        <li><a href="#features" data-en="Features" data-ar="الميزات" data-fr="Fonctionnalités">Features</a></li>
+                        <li><a href="#screenshots" data-en="Screenshots" data-ar="لقطات الشاشة" data-fr="Captures d'écran">Screenshots</a></li>
+                        <li><a href="#download" data-en="Download" data-ar="تحميل" data-fr="Télécharger">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Legal" data-ar="قانوني" data-fr="Légal">Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html" data-en="Privacy Policy" data-ar="سياسة الخصوصية" data-fr="Politique de confidentialité">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html" data-en="Terms of Service" data-ar="شروط الخدمة" data-fr="Conditions d'utilisation">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Contact" data-ar="اتصل بنا" data-fr="Contact">Contact</h4>
+                    <p>support@momentum-app.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Momentum. <span data-en="All rights reserved." data-ar="جميع الحقوق محفوظة." data-fr="Tous droits réservés.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
