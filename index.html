@@ -106,7 +106,7 @@
                     <div class="feature-icon">⚡</div>
                     <h3 data-en="Smart Reminders" data-ar="تذكيرات ذكية" data-fr="Rappels intelligents">Smart Reminders</h3>
                     <p data-en="Never miss a habit with customizable reminders and notifications." data-ar="لا تفوت أي عادة مع التذكيرات والإشعارات القابلة للتخصيص." data-fr="Ne manquez jamais une habitude avec des rappels et des notifications personnalisables.">
-                        Never miss a habit with customizable reminders and notifications.
+                        Ne manquez jamais une habitude avec des rappels et des notifications personnalisables.
                     </p>
                 </div>
             </div>
@@ -186,26 +186,20 @@
         </div>
     </section>
 
-    <!-- Signup Section - Netlify Official -->
+    <!-- Signup Section - Formspree Integration -->
     <section id="signup" class="signup">
         <div class="container">
             <h2 class="section-title" data-en="Be the First to Know" data-ar="كن أول من يعلم" data-fr="Soyez le premier informé">Be the First to Know</h2>
             <p class="section-subtitle" data-en="Sign up for launch updates and get early access." data-ar="سجل للحصول على تحديثات الإطلاق والوصول المبكر." data-fr="Inscrivez-vous pour les mises à jour de lancement et obtenez un accès anticipé.">Sign up for launch updates and get early access.</p>
             
-            <!-- NETLIFY'S RECOMMENDED FORM STRUCTURE -->
-            <form name="contact" method="POST" data-netlify="true">
-              <input type="hidden" name="form-name" value="contact" />
+            <!-- FORMSPREE FORM -->
+            <form action="https://formspree.io/f/mnnowrze" method="POST">
               <div class="signup-form">
-                <p style="display: none;">
-                  <label>
-                    Don’t fill this out if you’re human: <input name="bot-field" />
-                  </label>
-                </p>
                 <input type="email" name="email" placeholder="Enter your email" required>
                 <button type="submit" class="btn btn-primary" data-en="Notify Me" data-ar="أعلمني" data-fr="Prévenez-moi">Notify Me</button>
               </div>
             </form>
-            <!-- END OF NETLIFY FORM -->
+            <!-- END OF FORMSPREE FORM -->
 
         </div>
     </section>
@@ -266,5 +260,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-
